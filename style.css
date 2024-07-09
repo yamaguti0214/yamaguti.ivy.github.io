@@ -6,6 +6,7 @@ body {
 .gummy-background {
     width: 100%;
     height: 100%;
+    border-radius: 0%;
     background: linear-gradient(135deg, #ffcccc 25%, #ccffcc 25%, #ccffcc 50%, #ffcccc 50%, #ffcccc 75%, #ccffcc 75%, #ccffcc);
     background-size: 40px 40px;
     display: flex;
@@ -17,25 +18,36 @@ body {
 }
 /*目次*/
 .menu li{
+    text-align: center;
     background-color: orange;
     border: 3px solid #f00;
     display: inline-block;
+    margin: 50px;
     width: 100px;
+    font-size: 23px;
     border-radius: 8px;
-    text-align: center;
+    
 }
 /*コンテンツ*/
 #contents {
-    margin: 40px;
-    padding: 40px 80px;
+    margin: 20px;
+    padding: 80px 170px;
+    border-radius: 20%;
     border: 1px solid #f6bb9e;
     border-color: #fff;
-    background-color: #17eb1a;
+    background-color: #0db9be;
 }
 /*文字列*/
 .float-right {
-
+  text-align: right;
 }
+.sy {
+  text-align: center;
+}
+.f {
+  text-align: center;
+}
+
 /*題目*/
 
 h1{ color: #df4839;
@@ -45,6 +57,9 @@ h1{ color: #df4839;
     font-family: "Candal", sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+  h2{
+    text-align: center;
   }
   /*画像*/
   .tf {
